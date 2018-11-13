@@ -44,8 +44,10 @@ II- Dataset Preparation
  Running BotDAD
  ---------------------------------
  
- 1. Download the zip from the github repository
+ 1. Download and extract the zip from the github repository to BotDAD Folder
  
- 2.  
+ 2.  <<botDAD_Path>>:>    C:\python27\Python.exe main.py
+ 
+ 3. 
  
  
