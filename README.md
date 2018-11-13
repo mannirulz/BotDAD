@@ -18,6 +18,8 @@ I - Installation Instruction
       d) python -m pip install matplotlib
       
       (Note: in case of error, upgrade pip to latest version using this command : python -m pip install -U pip)
+      
+      e)  python -m pip install win_inet_pton
  
 ---------------------------------
 II- Dataset Preparation
