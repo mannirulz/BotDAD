@@ -8,13 +8,13 @@ I - Installation Instruction
 2. Install Pycharm Community Edition (Optional)
 3. Install Following Packages
 
-  a) pip install ipaddr
+      a) pip install ipaddr
   
-  b) pip install dpkt
+      b) pip install dpkt
   
-  c) pip install geoip2
+      c) pip install geoip2
   
-  d) pip install matplotlib
+      d) pip install matplotlib
  
  
 II- Dataset Preparation
