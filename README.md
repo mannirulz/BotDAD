@@ -5,7 +5,7 @@ Anomaly detection based on DNS traffic analysis
 I - Installation Instruction
 
 1. Install Python 2.7.*
-2. Install Pycharm Community Edition
+2. Install Pycharm Community Edition (Optional)
 3. Install Following Packages
 
   a) pip install ipaddr
