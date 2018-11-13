@@ -2,7 +2,7 @@
 Anomaly detection based on DNS traffic analysis
 
 
-I    Install Instruction
+I - Installation Instruction
 
 1. Install Python 2.7.*
 2. Install Pycharm Community Edition
@@ -17,7 +17,7 @@ I    Install Instruction
   d) pip install matplotlib
  
  
-II Dataset Preparation
+II- Dataset Preparation
  
  1. Filter all DNS traffic from Pcap file as tool analyses DNS packets only using command below :
  
@@ -27,10 +27,12 @@ II Dataset Preparation
  
      c:\Progra~1\Wireshark\editcap.exe -F pcap -i 3600 "big.pcap"  "slice.pcap"
  
-OR
+          OR
  
  Download the sample file from link below:
  
  https://drive.google.com/file/d/14cRY6aEQz_xVsfySBb4Ik6mPYDLoIc88/view?usp=sharing
+ 
+ 
  
  
