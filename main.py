@@ -21,12 +21,9 @@
 # Parse New Pcap file
 
 
-pcaplist = ['tmp_00000_19700101053014.pcap'
+pcaplist = ['sample_large.pcap' ]
 
 
-
-
-             ]
 pcaplist2 = [ 'dns_192.168.3.104-unvirus.pcap',
 'dns_2014-01-31_capture-win7.pcap',
 'dns_2014-04-07_capture-win13.pcap',
@@ -59,7 +56,7 @@ from PcapParser import PcapParser
 try:
 
     for files in pcaplist:
-        filename = "F:/Research/PhD/Dataset/split/" + files
+        filename = "../../" + files
         try:
             obj_dns_parser = PcapParser(10000000, 3, filename, 1)
             obj_dns_parser.start_parse()
