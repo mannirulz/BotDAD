@@ -25,7 +25,7 @@ class IPDetails:
             self.country_name = ""
 
 
-
+#Testing Basic IP Info
 if __name__ == '__main__':
     obj = IPDetails('8.8.8.8')
     print obj.country_name, obj.sub_name, obj.city_name
