@@ -48,6 +48,39 @@ II- Dataset Preparation
  
  2.  <<botDAD_Path>>:>    C:\python27\Python.exe main.py
  
+            Following output should come after sucessful running
+            BotDAD Ver 0.2
+                  ===============
+                        Verbose : 1
+                        Mode    : 3
+
+                  =============== PCAP Processing Started at  2018-11-14 11:34:33.811000 ===========
+                  Packets (#)		Time Taken
+                          10 		0:00:00.002000
+                         100 		0:00:00.003000
+                    =============== PCAP Processing completed at 2018-11-14 11:36:36.260000 ==========
+
+                  Total number of Packets Processed        : 1000000
+                  Total number of DNS Query                : 440969
+                  Total number of DNS Responses            : 559031
+                  Total number of Unknown Response Records : 0
+                  Total number of Failed Responses         : 50108
+                  Total Time taken                         : 0:02:02.449000
+
+                  Number of infected Hosts = 19
+
+                  Number of Clean Hosts = 755
+
+                  l - list 	 m - Save Map 	 p - plot 	d/D - Display/Save 	 h - saveHtml 	 x - saveCSV 	 F - Find Req                       URl	 f - Find Resolved IP	 q - quit
+                  console>
+        
+ 
+ 3. Type l for list of  hosts with maximum DNS queries
+ 
+ 4. Type d to display DNS queries data
+ 
+ 5. Type p to plot DNS query timeline
+ 
  3. Following files will be generated at the successful completion of the script
  
     a) In the same folder as the pcap file
@@ -55,7 +88,10 @@ II- Dataset Preparation
       DNS Response    : 20160421_150521.pcap_res.csv
       PCap Parser Log : 20160421_150521.pcap_log.csv
       
-     b) In the BotDAD folder
+     b) In the Output folder
+     
+     Hosts DNS fingerpeint : DNS_FP.csv
+     Anomaly detection     : DNS_FP_Anomaly.csv
        
  
  
