@@ -1,8 +1,9 @@
 # BotDAD
-Anomaly based Botnet detection based on DNS traffic analysis
+Tool for Anomaly based Botnet detection using DNS traffic analysis 
+(Tested on Windows 10 64 bit. Should work for Linux and other Windows versions)
 
 ---------------------------------
-I - Installation Instruction
+I - Installation Instruction 
 ---------------------------------
 
 1. Install Python 2.7.9 (https://www.python.org/downloads/release/python-279/)
