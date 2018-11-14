@@ -84,14 +84,20 @@ II- Dataset Preparation
  3. Following files will be generated at the successful completion of the script
  
     a) In the same folder as the pcap file
+    
       DNS Requests    : 20160421_150521.pcap_req.csv
+      
       DNS Response    : 20160421_150521.pcap_res.csv
+      
       PCap Parser Log : 20160421_150521.pcap_log.csv
+      
       
      b) In the Output folder
      
      Hosts DNS fingerpeint : DNS_FP.csv
+     
      Anomaly detection     : DNS_FP_Anomaly.csv
+     
        
  
  
