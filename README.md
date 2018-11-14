@@ -49,6 +49,7 @@ II- Dataset Preparation
  2.  <<botDAD_Path>>:>    C:\python27\Python.exe main.py
  
      Following output should come after sucessful running
+     
                   BotDAD Ver 0.2
                   ===============
                         Verbose : 1
