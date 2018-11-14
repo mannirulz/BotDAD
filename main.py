@@ -21,7 +21,7 @@
 # Parse New Pcap file
 
 
-pcaplist = ['sample_large.pcap' ]
+pcaplist = ['20160421_150521.pcap' ]
 
 
 pcaplist2 = [ 'dns_192.168.3.104-unvirus.pcap',
