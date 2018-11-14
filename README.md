@@ -48,8 +48,8 @@ II- Dataset Preparation
  
  2.  <<botDAD_Path>>:>    C:\python27\Python.exe main.py
  
-            Following output should come after sucessful running
-            BotDAD Ver 0.2
+     Following output should come after sucessful running
+                  BotDAD Ver 0.2
                   ===============
                         Verbose : 1
                         Mode    : 3
@@ -85,18 +85,18 @@ II- Dataset Preparation
  
     a) In the same folder as the pcap file
     
-      DNS Requests    : 20160421_150521.pcap_req.csv
-      
-      DNS Response    : 20160421_150521.pcap_res.csv
-      
-      PCap Parser Log : 20160421_150521.pcap_log.csv
+                  DNS Requests    : 20160421_150521.pcap_req.csv
+
+                  DNS Response    : 20160421_150521.pcap_res.csv
+
+                  PCap Parser Log : 20160421_150521.pcap_log.csv
       
       
      b) In the Output folder
      
-     Hosts DNS fingerpeint : DNS_FP.csv
-     
-     Anomaly detection     : DNS_FP_Anomaly.csv
+                 Hosts DNS fingerpeint : DNS_FP.csv
+
+                 Anomaly detection     : DNS_FP_Anomaly.csv
      
        
  
