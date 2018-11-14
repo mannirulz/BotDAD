@@ -58,6 +58,8 @@ try:
     for files in pcaplist:
         filename = "../../" + files
         try:
+      
+            #PcapParser( Max_packet_count, mode, filename, verbose):
             obj_dns_parser = PcapParser(10000000, 3, filename, 1)
             obj_dns_parser.start_parse()
             #break
