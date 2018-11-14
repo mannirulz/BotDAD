@@ -35,7 +35,7 @@ II- Dataset Preparation
  
           OR
  
- Download the sample file from link below:
+ Download the sample file (20160421_150521.pcap) from link below:
  
  https://drive.google.com/file/d/14cRY6aEQz_xVsfySBb4Ik6mPYDLoIc88/view?usp=sharing
  
@@ -48,6 +48,14 @@ II- Dataset Preparation
  
  2.  <<botDAD_Path>>:>    C:\python27\Python.exe main.py
  
- 3. 
+ 3. Following files will be generated at the successful completion of the script
+ 
+    a) In the same folder as the pcap file
+      DNS Requests    : 20160421_150521.pcap_req.csv
+      DNS Response    : 20160421_150521.pcap_res.csv
+      PCap Parser Log : 20160421_150521.pcap_log.csv
+      
+     b) In the BotDAD folder
+       
  
  
