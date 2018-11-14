@@ -1,11 +1,11 @@
 # BotDAD
-Anomaly detection based on DNS traffic analysis
+Anomaly based Botnet detection based on DNS traffic analysis
 
 ---------------------------------
 I - Installation Instruction
 ---------------------------------
 
-1. Install Python 2.7.9
+1. Install Python 2.7.9 (https://www.python.org/downloads/release/python-279/)
 2. Install Pycharm Community Edition (Optional)
 3. Install Following Packages
 
@@ -48,7 +48,7 @@ II- Dataset Preparation
  
  2.  <<botDAD_Path>>:>    C:\python27\Python.exe main.py
  
-     Following output should come after sucessful running
+     Following output should come after successful running
      
                   BotDAD Ver 0.2
                   ===============
@@ -78,11 +78,37 @@ II- Dataset Preparation
  
  3. Type l for list of  hosts with maximum DNS queries
  
+                   Hosts with over 100 distinct requests 
+                  1.	172.31.157.166	4156
+                  2.	172.31.250.252	667
+                  3.	172.31.247.66	1492
+                  4.	172.31.242.144	223
+                  5.	172.31.157.212	285
+ 
  4. Type d to display DNS queries data
+ 
+                   d
+                  Enter Hostname :
+                  172.31.251.155
+                  ('172.31.251.155', 4292, 0, 2037, 0, 0, 0, 0, 0, 0, 0, 0)
+                  Request:	34267	aqgmekpyyhxyrnly.eu	1	21/04/16 09:46:20
+                  Request:	20800	fbkbpdqvtqrssyoxlcor.ru	1	21/04/16 09:48:02
+                  Request:	55664	xqjggsdhhcp.sx	1	21/04/16 09:48:02
+                  Request:	15193	wbdaojgucxaq.ms	1	21/04/16 09:49:15
+                  Request:	2527	kvivhjwewvm.to	1	21/04/16 09:45:43
  
  5. Type p to plot DNS query timeline
  
- 3. Following files will be generated at the successful completion of the script
+                   p
+                  Enter Hostname :
+                  172.31.251.155
+                  ('Hostname : ', '172.31.251.155')
+                  (' Number of URLs :', 2037)
+                  A plot of DNS query timeline will be displayed
+                  
+                  
+ 
+6. Following files will be generated at the successful completion of the script
  
     a) In the same folder as the pcap file
     
