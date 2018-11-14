@@ -48,6 +48,7 @@ II- Dataset Preparation
  1. Download and extract the zip from the github repository to BotDAD Folder
  
  2.  <<botDAD_Path>>:>    C:\python27\Python.exe main.py
+     Kindly check the pathname in the main.py before proceeding 
  
      Following output should come after successful running
      
