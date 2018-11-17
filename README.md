@@ -1,4 +1,5 @@
-# BotDAD
+# BotDAD (Bot DNS Anomaly Detector)
+
 Tool for Anomaly based Botnet detection using DNS traffic analysis 
 (Tested on Windows 10 64 bit. Should work for Linux and other Windows versions)
 
