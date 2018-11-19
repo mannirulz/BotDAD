@@ -35,17 +35,17 @@ II- Dataset Preparation
  
      c:\Progra~1\Wireshark\editcap.exe -F pcap -i 3600 "big.pcap"  "slice.pcap"
  
-            OR
+                  OR
  
- Download the sample file (20160421_150521.pcap) from link below:
- 
- https://drive.google.com/file/d/14cRY6aEQz_xVsfySBb4Ik6mPYDLoIc88/view?usp=sharing
- 
-            OR
- 
- Download sample file from Mendeley Dataset from link below:
- 
- https://data.mendeley.com/datasets/zh3wnddzxy/1
+  1.     Download the sample file (20160421_150521.pcap) from link below:
+
+       https://drive.google.com/file/d/14cRY6aEQz_xVsfySBb4Ik6mPYDLoIc88/view?usp=sharing
+
+                  OR
+
+  1.     Download sample file from Mendeley Dataset from link below:
+
+       https://data.mendeley.com/datasets/zh3wnddzxy/1
  
  
  ---------------------------------
