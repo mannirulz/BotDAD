@@ -44,6 +44,7 @@ II- Dataset Preparation
             OR
  
  Download sample file from Mendeley Dataset from link below:
+ 
  https://data.mendeley.com/datasets/zh3wnddzxy/1
  
  
@@ -135,4 +136,6 @@ II- Dataset Preparation
      
        
  
- For BotDAD machine learning module please refer https://github.com/mannirulz/BotDAD/blob/master/ML/Readme.MD
+ For BotDAD machine learning module please refer readme file from link below:
+ 
+ https://github.com/mannirulz/BotDAD/blob/master/ML/Readme.MD
