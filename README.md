@@ -139,3 +139,10 @@ II- Dataset Preparation
  For BotDAD machine learning module please refer readme file from link below:
  
  https://github.com/mannirulz/BotDAD/blob/master/ML/Readme.MD
+ 
+ 
+ ----------------------
+ References
+-----------------------
+
+1. Singh M, Singh M, Kaur S (2018) Detecting bot-infected machines using DNS fingerprinting. Digit Investig 28:14–33 . doi: 10.1016/j.diin.2018.12.005
